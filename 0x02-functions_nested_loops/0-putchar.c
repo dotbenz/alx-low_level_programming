@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * main - prints putchar
@@ -9,16 +9,16 @@
 
 int main(void)
 {
-	char p[] = "_putchar";
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
-	unsigned int c;
 
-	for (c = 0; c < 8; c++)
-	{
-		_putchar(p[c]);
-	}
-
-		_putchar('\n');
-	return (0);
 }
 
