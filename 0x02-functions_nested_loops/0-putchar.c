@@ -1,4 +1,4 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
  * main - prints putchar
@@ -6,6 +6,7 @@
  * Return: Always 0 (Success)
  *
  */
+
 int main(void)
 {
 	char p[] = "_putchar";
