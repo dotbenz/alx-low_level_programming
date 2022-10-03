@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * free_grid - free a 2d array
+ * free_grid - frees a 2d array
  * @grid: grid to be freed
  * @height: height of matrix
  * Return: returns void
